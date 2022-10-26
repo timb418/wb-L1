@@ -25,11 +25,11 @@ Tasks descriptioon:
 15. К каким негативным последствиям может привести данный фрагмент кода, икак это исправить? Приведите корректный пример реализации.
 var justString string
 func someFunc() {
-v := createHugeString(1 << 10)
-justString = v[:100]
+    v := createHugeString(1 << 10)
+    justString = v[:100]
 }
 func main() {
-someFunc()
+    someFunc()
 }
 16. Реализовать быструю сортировку массива (quicksort) встроенными методами языка.
 17. Реализовать бинарный поиск встроенными методами языка.
@@ -73,11 +73,11 @@ Example: -20:{-25.0, -27.0, -21.0}, 10:{13.0, 19.0, 15.5}, ​​20: {24.5}, etc
 15. What negative consequences can this code fragment lead to, and how can I fix it? Give a correct implementation example.
 var justString string
 func someFunc() {
-v := createHugeString(1 << 10)
-justString = v[:100]
+    v := createHugeString(1 << 10)
+    justString = v[:100]
 }
 func main() {
-someFunc()
+    someFunc()
 }
 16. Implement quick sorting of an array (quicksort) using the built-in methods of the language.
 17. Implement binary search using the built-in methods of the language.
